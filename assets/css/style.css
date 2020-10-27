@@ -1,0 +1,5 @@
+body [class*="col-"] {
+  height: 100px;
+  background-color: pink;
+  border: 1px solid red;
+}
