@@ -1,5 +1,116 @@
-body [class*="col-"] {
+/* DEBUG:  */
+/* body [class*="col-"] {
   height: 100px;
   background-color: pink;
   border: 1px solid red;
+} */
+
+/* Utility classes */
+body {
+  font-family: 'Montserrat', sans-serif;
 }
+
+.bg_blue {
+  background-color: #2C3E50;
+}
+
+.border_none {
+  border: none;
+}
+
+.color_white {
+  color: white;
+}
+/* /Utility classes */
+
+/* header site */
+/* nav bar */
+nav {
+  height: 100px;
+}
+
+.container-fluid {
+ padding-top: 10px;
+}
+
+nav a {
+  font-weight: 700;
+}
+
+nav .navbar_brand_size {
+  color: white;
+  font-size: px;
+}
+/* /nav bar */
+
+/* hero site*/
+.hero {
+  background-color: #1ABC9C;
+  color: white;
+}
+
+.hero img {
+  margin: 150px 0 50px 0;
+  height: 250px;
+  width: auto;
+}
+
+.hero h1 {
+  font-weight: 800;
+  font-size: 50px;
+}
+
+.white_line {
+  width:10px;
+  display: inline;
+  border-bottom: 1px solid white;
+}
+
+.hero li {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.hero ul {
+  margin-bottom:30px;
+}
+/* /hero site*/
+/* /header site */
+
+/* main site */
+/* section porfolio */
+.portfolio {
+  height: 800px;
+}
+/* /section porfolio */
+
+/* section about me */
+.about_me {
+  height: 500px;
+  background-color: #1ABC9C;
+}
+/* /section about me */
+
+/* section contact me */
+.contact_me {
+  height: 800px;
+}
+/* /section contact me */
+/* /main site */
+
+/* footer side */
+/* footer top */
+.footer_top {
+  height: 300px;
+  background-color: #3A546D;
+}
+/* /footer top */
+/* footer bottom */
+.footer_bootom {
+  height: 150px;
+  background-color: #2C3E50;
+}
+/* /footer bottom */
+/* /footer side */
