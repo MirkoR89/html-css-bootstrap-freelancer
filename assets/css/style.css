@@ -17,16 +17,13 @@ body {
 .border_none {
   border: none;
 }
-
-.color_white {
-  color: white;
-}
 /* /Utility classes */
 
 /* header site */
 /* nav bar */
 nav {
   height: 100px;
+  color: white !important;
 }
 
 .container-fluid {
@@ -38,8 +35,7 @@ nav a {
 }
 
 nav .navbar_brand_size {
-  color: white;
-  font-size: px;
+  font-size: 25px;
 }
 /* /nav bar */
 
@@ -60,10 +56,18 @@ nav .navbar_brand_size {
   font-size: 50px;
 }
 
+.star_line {
+  margin: 15px 0;
+}
+
 .white_line {
   width:10px;
   display: inline;
   border-bottom: 1px solid white;
+}
+
+.star_line span {
+  height: 2em;
 }
 
 .hero li {
@@ -82,14 +86,35 @@ nav .navbar_brand_size {
 /* main site */
 /* section porfolio */
 .portfolio {
-  height: 800px;
+
 }
+
+.portfolio h2 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #2C3E50;
+  margin-bottom: 90px;
+}
+
+.portfolio img {
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 90px;
+}
+
 /* /section porfolio */
 
 /* section about me */
 .about_me {
   height: 500px;
   background-color: #1ABC9C;
+}
+
+.about_me h2 {
+  font-weight: 700;
+  font-size: 40px;
+  color: white;
+  margin-bottom: 90px;
 }
 /* /section about me */
 
