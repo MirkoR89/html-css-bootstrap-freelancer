@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bootstrap Freelance</title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
 <script src="https://kit.fontawesome.com/8d58ee31c8.js" crossorigin="anonymous"></script>
 </head>
@@ -14,29 +14,29 @@
   <!-- header site -->
   <header>
     <!-- nav bar -->
-  <nav class="border_none bg_blue navbar navbar-default container-fluid navbar-fixed-top">
-    <div class="container-fluid container">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand navbar_brand_size" href="#">START BOOTSTRAP</a>
-      </div>
+    <nav class="border_none bg_blue navbar navbar-default container-fluid navbar-fixed-top">
+      <div class="container-fluid container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+        </div>
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">PORFOLIO</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">CONTACT</a></li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">PORFOLIO</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
     <!-- /nav bar -->
 
     <!-- hero site -->
@@ -52,10 +52,10 @@
             <h1>START BOOTSTRAP</h1>
           </div>
 
-          <div class="star_line col-lg-12">
-            <div class="white_line left"></div>
-            <span><i class="fas fa-star"></i></span>
-            <div class="white_line right"></div>
+          <div class="col-lg-12">
+            <div class="star_line">
+              <i class="fas fa-star"></i>
+            </div>
           </div>
 
           <div class="col-lg-12">
@@ -75,13 +75,18 @@
   <!-- main site -->
   <main>
     <!-- section porfolio -->
-    <section class="portfolio container-fluid">
+    <section class="portfolio container-fluid text-center">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12"></div>
-          <h2 class="text-center">PORTFOLIO</h2>
+          <div class="col-lg-12">
+            <h2>PORTFOLIO</h2>
           </div>
-
+          <div class="col-lg-12">
+            <div class="star_line">
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
 
         <div class="row">
           <div class="col-lg-4 col-md-6 col-sm-12 text-center">
@@ -118,16 +123,16 @@
         </div>
 
         <div class="row">
-          <div class="col-lg-6 col-sm-12 text-center">
+          <div class="col-lg-6 col-sm-12">
             <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
           </div>
-          <div class="col-lg-6 col-sm-12 text-center">
+          <div class="col-lg-6 col-sm-12">
             <p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
           </div>
         </div>
 
         <div class="row">
-          <div class="col-lg-12 col-sm-12 text-center">
+          <div class="col-lg-12 col-sm-12">
             <button type="button" class="btn btn-default btn-lg"><i class="fas fa-download"></i> Free Download!</button>
           </div>
         </div>
@@ -167,7 +172,7 @@
   <!-- footer site -->
   <footer>
     <div class="footer_top container-fluid text-center">
-      <div class="container">
+      <div class="container footer_top_content">
         <div class="row">
           <div class="col-lg-4 col-sm-12">
             <h4>LOCATION</h4>
@@ -175,14 +180,16 @@
           </div>
           <div class="col-lg-4 col-sm-12">
             <h4>AROUND THE WEB</h4>
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-linkedin-in"></i>
-            <i class="fas fa-basketball-ball"></i>
+            <div class="icon_footer">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-linkedin-in"></i>
+              <i class="fas fa-basketball-ball"></i>
+            </div>
           </div>
           <div class="col-lg-4 col-sm-12">
             <h4>ABOUT FREELANCER</h4>
-            <p>Freelance is a free to use, MIT licensed Bootstrap theme created by <span>Start Bootstrap</span>.</p>
+            <p>Freelance is a free to use, MIT licensed Bootstrap theme created by <span><a href="#">Start Bootstrap</a></span>.</p>
           </div>
         </div>
       </div>
