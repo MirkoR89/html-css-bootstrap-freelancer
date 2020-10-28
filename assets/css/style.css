@@ -17,6 +17,17 @@ body {
 .border_none {
   border: none;
 }
+
+h2 {
+  font-weight: 700;
+  font-size: 60px;
+  margin-bottom: 90px;
+}
+
+p {
+  font-weight: 500;
+  font-size: 20px;
+}
 /* /Utility classes */
 
 /* header site */
@@ -53,7 +64,7 @@ nav .navbar_brand_size {
 
 .hero h1 {
   font-weight: 800;
-  font-size: 50px;
+  font-size: 90px;
 }
 
 .star_line {
@@ -86,14 +97,7 @@ nav .navbar_brand_size {
 /* main site */
 /* section porfolio */
 .portfolio {
-
-}
-
-.portfolio h2 {
-  font-weight: 700;
-  font-size: 40px;
   color: #2C3E50;
-  margin-bottom: 90px;
 }
 
 .portfolio img {
@@ -108,19 +112,30 @@ nav .navbar_brand_size {
 .about_me {
   height: 500px;
   background-color: #1ABC9C;
-}
-
-.about_me h2 {
-  font-weight: 700;
-  font-size: 40px;
   color: white;
-  margin-bottom: 90px;
 }
 /* /section about me */
 
 /* section contact me */
 .contact_me {
-  height: 800px;
+  color: #2C3E50;
+}
+
+.contact_me h3 {
+  font-weight: 300;
+  font-size: 30px;
+  margin: 50px 0;
+}
+
+hr:last-child {
+  margin-top: 100px;
+}
+
+.contact_me button {
+  background-color: #1BBC9C;
+  height: 80px;
+  width: 140px;
+  margin: 50px 0;
 }
 /* /section contact me */
 /* /main site */
