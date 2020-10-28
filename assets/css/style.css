@@ -34,7 +34,6 @@ p {
 /* nav bar */
 nav {
   height: 100px;
-  color: white !important;
 }
 
 .container-fluid {
@@ -47,6 +46,7 @@ nav a {
 
 nav .navbar_brand_size {
   font-size: 25px;
+  color: white!important;
 }
 /* /nav bar */
 
@@ -145,12 +145,15 @@ hr:last-child {
 .footer_top {
   height: 300px;
   background-color: #3A546D;
+  color: white;
 }
 /* /footer top */
 /* footer bottom */
 .footer_bootom {
   height: 150px;
   background-color: #2C3E50;
+  color: white;
 }
+
 /* /footer bottom */
 /* /footer side */
